@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GitHub API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body class="gradient-bg">
+    <main>
+      <header>
+        <img src="http://pngimg.com/uploads/github/github_PNG83.png" width="100" alt="">
+        <h1 class="purple">GitHub API</h1>
+      </header>
+      <form>
+        <strong>Proprietário do Repositório: </strong>
+        <input type="text" id="owner-input" />
+        <br>
+        <strong>Nome do Repositório: </strong>
+        <input type="text" id="repo-input" />
+        <button type="button" id="search-btn">Buscar</button>
+      </form>
+      <div>
+        <ul id="repo-list">
+          <div>
+            Preencha os Campos Acima e Encontre um Repositório
+          </div>
+        </ul>
+      </div>
+    </main>
+    <script src="bundle.js"></script>
+  </body>
+</html>
